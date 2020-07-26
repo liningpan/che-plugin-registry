@@ -1,0 +1,19 @@
+apiVersion: v2
+publisher: liningpan
+name: typescript
+version: 1.47.2
+type: VS Code extension
+displayName: Typescript
+title: Typescript language features
+description: Typescript language features
+icon: https://www.eclipse.org/che/images/logo-eclipseche.svg
+repository: https://github.com/Microsoft/vscode
+category: Language
+firstPublicationDate: '2019-06-20'
+spec:
+  containers:
+  - image: "registry.internal.psych.dev/internal-che/che-dockerfile/che-sidecar-node:2"
+    name: vscode-typescript
+    memoryLimit: '512Mi'
+  extensions:
+  - http://release.hosted.internal.psych.dev/vscode/ms-code.typescript/che-typescript-language-1.47.2.vsix
