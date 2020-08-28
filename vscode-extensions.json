@@ -76,7 +76,7 @@
     },
     {
       "repository": "https://github.com/castwide/vscode-solargraph",
-      "revision": "0.22.0",
+      "revision": "212e76d",
       "sidecar": {
         "image": "quay.io/eclipse/che-sidecar-ruby:2.6-76f1125",
         "source": {
