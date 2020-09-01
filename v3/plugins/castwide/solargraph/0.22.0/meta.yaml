@@ -1,6 +1,6 @@
 apiVersion: v2
 publisher: castwide
-name: vscode-solargraph
+name: solargraph
 version: 0.22.0
 type: VS Code extension
 displayName: Language Support for Ruby
